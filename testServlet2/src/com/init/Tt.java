@@ -17,6 +17,7 @@ public class Tt implements ServletContainerInitializer{
 			throws ServletException {
 		// TODO Auto-generated method stub
 		
+		
 		ServletRegistration reg =context.addServlet("ss", "com.src.Test");
 		reg.addMapping("/surl");
 		
