@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+.title{
+	margin-top:20px;
+	font-size:26px;
+	font-weight:
+}
+table{
+		border:1px solid;
+		cellspacing:0px;
+		border-collapse:collapse;
+		width:100%;
+	}
+td{
+	border:1px solid;
+}
+.td1{
+	width:40%;
+}
+.td2{
+	width:50%;
+}
+.td3{
+	width:10%;
+	text-align:center;
+}

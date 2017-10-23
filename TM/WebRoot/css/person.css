@@ -1,0 +1,89 @@
+
+.body_head{
+	height:60px;
+    background:url(../images/person_head.png);
+	background-size:100% 100%;
+	padding-left:20px;	
+
+}
+.body_head span:nth-child(1){
+	disply:block;
+	font-family: 华文行楷;
+	font-size:30px;
+	line-height:60px;
+}
+.body_head span:nth-child(2){
+	display:block;
+    float:right;
+    line-height:60px;
+}
+.myButton{
+    background-color: #49b0b1;
+    color: #FFF;
+}
+.body_left{
+	width:25%;
+	float:left;
+}
+.user{
+	width:60%;
+	height:100%;
+	margin:8% 20% 0 15%;
+}
+.user span{
+	display:block;
+	height:46px;
+	color:#FFF;
+	line-height:46px;
+	text-align:center;
+	font-size:18px;
+	border-radius:8px 8px 0px 0px;
+	background-color:rgba(107, 169, 220, 1);
+}
+.table tr{
+	text-align:center;
+	font-size:15px;
+	cursor: pointer;
+}
+.body_right{
+	background:url(../images/person_right.png) repeat-x;
+	width:75%;
+	float:right;
+	padding:30px 91px 0px 91px;
+    border-left:2px solid rgba(159, 204, 235, 1);
+    text-align:center;
+    border-radius:10px 0 0 0;
+    height:161%;
+}
+.footer{
+    width: 100%;
+    background-color:rgba(107, 169, 220, 1);
+    float:left;
+}
+.footer table{
+    width: 100%;
+    text-align: center;
+}
+.footer table td{
+/* 	padding-bottom:10px; */
+    padding-top:10px;
+    font-size: 18px;
+    color: #FFF;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+@media screen and (min-width: 1367px){
+    .footer{
+        height: 175px;
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width: 1366px){
+    .footer{
+        height: 140px;
+        padding-top: 10px;
+    }
+}

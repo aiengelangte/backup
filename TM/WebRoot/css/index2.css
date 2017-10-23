@@ -1,0 +1,89 @@
+@CHARSET "UTF-8";
+.header{
+    background-image: url("../images/header.png");
+    background-size: 100% 100%;
+    height:20%;
+}
+
+.main_body{
+    margin: 10px auto;
+/*     height:59%; */
+	height:auto;
+}
+
+.main_body div{
+    float: left;
+    text-align: center;
+    width: 33%;
+}
+.main_body a{
+	text-decoration:none;
+    color:black;
+}
+a:focus {outline:none; -moz-outline:none}
+.main_body div:nth-child(1) {
+    border-right: 1px solid #CCCCCC;
+
+}
+.main_body div:nth-child(4) {
+    border-left: 1px solid #CCCCCC;
+
+}
+
+.main_body img {
+/*     height:88%; */
+    height:300px;
+    margin-bottom: 1.6%;
+}
+
+.main_body span {
+    font-family: 华文行楷;
+    font-size:27px;
+    color:black;
+}
+
+.footer {
+    background-image: url("../images/footer.png");
+    background-size: 100% 100%;
+/*     height:25.9%; */
+   height:auto;
+}
+
+#text1 {
+        font-family: 华文行楷;
+        color: white;
+    }
+    #text2 {
+        font-family: 华文行楷;
+        color: white;
+    }
+@media screen and (min-width: 1367px){
+    #text1 {
+        font-size: 30px;
+        height: 160px;
+        margin-left: 45%;
+        padding-top: 2%;
+        width: 50%;
+    }
+    #text2 {
+        font-size: 47px;
+        font-weight: bold;
+        margin-left: 43%;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 1366px){
+    #text1 {
+        font-size: 22px;
+        height: 82px;
+        margin-left: 45%;
+        padding-top: 2%;
+        width: 50%;
+    }
+
+    #text2 {
+        font-size: 30px;
+        font-weight: bold;
+        margin-left: 45%;
+        margin-top: 40px;
+}

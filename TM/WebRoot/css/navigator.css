@@ -1,0 +1,31 @@
+.title{
+    color: #FFF;
+    background-color: #49B1B2;
+    border-radius: 90px;
+    display: inline-block;
+    padding:0 20px 0 20px;
+    font-size: 20px;
+    font-family: "仿宋";
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+table{
+    width: 100%;
+}
+table td{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+table td a{
+    font-size: 20px;
+    font-family: "仿宋";
+    text-decoration: none;
+    color: black;
+}
+table td a:hover{
+    color: red;
+}

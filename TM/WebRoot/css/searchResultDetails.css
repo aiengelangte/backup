@@ -1,0 +1,122 @@
+.header{
+    width: 100%;
+    height: 100px;
+}
+.empty{
+  	width:20%;
+  	float:left;
+  	height:100px;
+}
+.pic{
+	width:60%;
+	margin:0 auto;
+	float:left;
+}
+.pic img{
+	margin:15px auto;
+    height: 70px;
+}
+.link{
+   	width:20%;
+   	float:left;
+   	height:100px;
+   	padding-top:60px;
+}
+.link span{
+	margin-right: 15px;
+	font-size: 16px;
+}
+#c_form{
+    padding: 2px;
+    border: 3px solid #49b0b1;
+}
+#dropdownMenu{
+    width: 19%;
+}
+#c_text{
+    width: 80%;
+    border: none;
+}
+#c_button{
+    display: inline-block;
+    background-color: #49b0b1;
+    color: #FFF;
+    height: 44px;
+    width: 25%;
+    text-align: center;
+    line-height: 44px;
+    font-size: 16px;
+    margin-right: 15px;
+}
+.header button{
+    margin-left:19%;
+}
+.header .result{
+    margin-left: 10%;
+}
+.main_body{
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+}
+.main_body .title{
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+}
+.main_body .nameANDtime span{
+    display: inline-block;
+    font-size: 10px;
+    color: grey;
+    margin: 15px;
+}
+.main_body .keywords{
+    display: block;
+    text-align: left;
+    margin-left: 60px;
+    font-size: 13px;
+}
+.content p{
+    text-align: left;
+    text-indent:30px;
+    font-size:14px;
+    line-height: 30px;
+}
+.div_button{
+    width: 60%;
+    height: 140px;
+    margin: 50px auto;
+}
+
+.down_button{
+    width: 20%;
+    height: 70px;
+    float: left;
+    margin:6.5%;
+}
+.num_1{
+    width: 100%;
+    height: 33%;
+    background-color: #daf1b0;
+    border: grey solid 1px;
+}
+.num_2{
+    width: 100%;
+    height: 33%;
+    background-color: #b4d6dc;
+    border: grey solid 1px;
+}
+.anniu{
+    width: 100%;
+    height: 67%;
+    border-right: grey solid 1px;
+    border-left: grey solid 1px;
+    border-bottom: grey solid 1px;
+    line-height: 46px;
+    background-color: white;
+}
+.return{
+	display:block;
+	width:45%;
+	margin:30px auto 0 auto;
+}

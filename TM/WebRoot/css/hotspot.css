@@ -1,0 +1,53 @@
+.left{
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+.art_title{
+    text-decoration: none;
+    color: #DD6D22;
+    font-family: "仿宋";
+    font-size: 20px;
+    font-weight: bold;
+}
+.art_title:hover{
+    color: red;
+    text-decoration: none;
+}
+.art_info{
+    font-family: "仿宋"
+}
+.heart{
+    text-align: right;
+}
+.right{
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+.title{
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #dc6d22;
+    margin: 10px auto 30px auto;
+}
+.right ul{
+    margin: 0 auto;
+    width: 80%;
+    /*text-align: center;*/
+}
+.right li{
+    float: left;
+    width: 50%;
+}
+.right_corner{
+    width: 50%;
+    float: right;
+    padding: 20px;
+}
+.right_corner ul{
+    width: 80%;
+    margin:0 auto;
+}

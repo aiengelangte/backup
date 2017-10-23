@@ -1,0 +1,136 @@
+.header{
+    height: 70px;
+}
+.tip{
+    margin-top:15px;
+    margin-left: 40px;
+    float: left;
+}
+.tip span{
+    margin-right: 15px;
+    font-size: 16px;
+}
+#c_logo{
+    text-align: center;
+    margin:10px auto 30px auto;
+}
+.div_1{
+    width: 100%;
+    height: 40px;
+    margin-bottom:30px;
+    text-align: right;
+}
+
+.div_2{
+    width: 36%;
+    height: 100%;
+    float: right;
+    text-align: left;
+}
+.div_3{
+    width: 36%;
+    height: 100%;
+    float: right;
+    text-align: left;
+}
+
+#c_form{
+    text-align: right;
+    padding: 2px;
+    border: 3px solid #49b0b1;
+}
+#dropdownMenu{
+    width: 19%;
+}
+#c_text{
+    width: 80%;
+    border: none;
+}
+#c_button{
+    display: inline-block;
+    background-color: #49b0b1;
+    color: #FFF;
+    height: 44px;
+    width: 18%;
+    text-align: center;
+    line-height: 44px;
+    font-size: 16px;
+    margin-right: 15px;
+    cursor:hand;
+    cursor:pointer;
+}
+#advantagesearch{
+    cursor: pointer;
+}
+#advantagesearch:hover{
+    color: red;
+}
+#c_show{
+    margin: 0 auto;
+    border: 1px solid #cbcbcb;
+    height: auto;
+}
+#c_select{
+    height:40px;
+    border-bottom: 1px solid #cbcbcb;
+    text-align: center;
+}
+#c_select span{
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#c_select .active{
+    background-color: #49b0b1;
+    color: #FFF;
+}
+#external-frame{
+    width: 100%;
+    padding: 0;
+    height:500px;
+}
+.footer{
+    width: 100%;
+    background-color:#49b0b1;
+    margin-bottom: 10px;
+}
+.footer table{
+    width: 100%;
+    text-align: center;
+}
+.footer table td{
+    padding-top:10px;
+    font-size: 18px;
+    color: #FFF;
+}
+@media screen and (min-width: 1367px){
+    #c_show{
+        width: 1200px;
+        height: auto;
+    }
+    .content{
+        margin-bottom: 120px;
+        height: auto;
+    }
+    .footer{
+        height: 175px;
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width: 1366px){
+    #c_show{
+        width: 1000px;
+        height: auto;
+    }
+    .content{
+        margin-bottom: 40px;
+        height: auto;
+    }
+    .footer{
+        height: 140px;
+        padding-top: 10px;
+    }
+}

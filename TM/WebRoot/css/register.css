@@ -1,0 +1,66 @@
+.header{
+    width: 100%;
+    height: 100px;
+    margin: 30px 0;
+}
+.header_left{
+    float: left;
+}
+.header_left span{
+    font-family: 华文行楷;
+    font-size: 38px;
+    color: #49b0b1;
+    margin-left:100px;
+    line-height: 100px;
+}
+.header_right{
+    float: right;
+}
+.header_right span{
+    font-size: 18px;
+    color: grey;
+    line-height: 100px;
+}
+.header_right a{
+    margin-right: 250px;
+}
+.content{
+    width: 100%;
+    height: 67%;
+    background-color: #f6f9fb;
+}
+.content .myForm{
+    width: 40%;
+    height: 100%;
+    margin: 0 auto;
+}
+.content .myForm span{
+    display: block;
+    text-align: center;
+    padding-top: 3%;
+    line-height: 40px;
+    font-family: 楷体;
+    font-size: 35px;
+    color: #49b0b1;
+    margin-bottom: 30px;
+}
+.warning{
+    font-size: 13px!important;
+    color: red!important;
+    margin-bottom: 0!important;
+    line-height: 15px!important;
+}
+#zhuce{
+    width: 100%;
+}
+.footer{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+.footer span{
+    display: block;
+    margin:4.5% auto;
+    line-height: 18px;
+    font-size: 18px;
+}
